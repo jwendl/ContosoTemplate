@@ -1,0 +1,100 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Contoso.Web</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Contoso.Web</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Web.csproj" File="Contoso.Web.csproj" ReplaceParameters="true">
+      <Folder Name="App_Data" TargetFolderName="App_Data" />
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BundleConfig.cs">BundleConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FilterConfig.cs">FilterConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UnityConfig.cs">UnityConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UnityMvcActivator.cs">UnityMvcActivator.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.css">bootstrap-theme.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.css.map">bootstrap-theme.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.min.css">bootstrap-theme.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.min.css.map">bootstrap-theme.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css.map">bootstrap.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      <Folder Name="fonts" TargetFolderName="fonts">
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.eot">glyphicons-halflings-regular.eot</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.svg">glyphicons-halflings-regular.svg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.ttf">glyphicons-halflings-regular.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.woff">glyphicons-halflings-regular.woff</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-regular.woff2">glyphicons-halflings-regular.woff2</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Models" TargetFolderName="Models" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Project_Readme.html">Project_Readme.html</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_references.js">_references.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js">bootstrap.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.intellisense.js">jquery-3.1.1.intellisense.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.js">jquery-3.1.1.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.min.js">jquery-3.1.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.min.map">jquery-3.1.1.min.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.slim.js">jquery-3.1.1.slim.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.slim.min.js">jquery-3.1.1.slim.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.1.1.slim.min.map">jquery-3.1.1.slim.min.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate-vsdoc.js">jquery.validate-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.js">jquery.validate.unobtrusive.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.min.js">jquery.validate.unobtrusive.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="modernizr-2.8.3.js">modernizr-2.8.3.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="respond.js">respond.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="respond.matchmedia.addListener.js">respond.matchmedia.addListener.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="respond.matchmedia.addListener.min.js">respond.matchmedia.addListener.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="respond.min.js">respond.min.js</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="true" TargetFileName="About.cshtml">About.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Contact.cshtml">Contact.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Contoso.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b544984fa8653e07</Assembly>
+    <FullClassName>Contoso.Wizard.ChildWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
