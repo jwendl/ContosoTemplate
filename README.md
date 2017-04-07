@@ -1,5 +1,5 @@
 # ContosoTemplate
-A multi project vs template example
+A multi project Visual studio project template example
 
 This is using a web application project template from .NET Framework 4.6.2
 
