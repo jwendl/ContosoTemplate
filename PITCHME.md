@@ -1,7 +1,7 @@
 ---
 
 #### Multi Project Visual Studio Template
-![Slides Located Here](https://gitpitch.com/jwendl/ContosoTemplate)
+[Slides Located Here](https://gitpitch.com/jwendl/ContosoTemplate)
 
 ---
 
