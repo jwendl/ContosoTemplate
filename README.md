@@ -27,7 +27,6 @@ In order to use this with Visual Studio 2015, there is a requirement to have the
 1. Create a folder called ProjectTemplates
 1. Edit the Contoso.Web.Template.csproj by changing "<Compile" tags to "<Content" tags and the "<VSTemplate" xml fragment from the code example below.
 
-
 ## Code Sections from Above
 
 ### MyTemplate.vstemplate
